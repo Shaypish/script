@@ -136,62 +136,55 @@ end)
   OthersSection:NewButton("BitchBoy v2", "ButtonInfo", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/v2.lua"))()
   end)
-  local Hub = Window:NewTab("Script Hub")
-local HubSection = Hub:NewSection("Script Hub (Use at own risk)")
  
-HubSection:NewButton("Da Hood", "Da Hood script", function()
+ local OthersTab = Window:NewTab("BrookHaven")
+local OthersSection = OthersTab:NewSection("BrookHaven") 
+
+OthersSection:NewButton("Da Hood", "Da Hood script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/dylannpro123/enclosed/main/enclosed'))()
 end)
  
-HubSection:NewButton("Evade", "Evade Script", function()
+OthersSection:NewButton("Evade", "Evade Script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
 end)
  
-HubSection:NewButton("Combat Warriors", "Combat Warriors script", function()
+OthersSection:NewButton("Combat Warriors", "Combat Warriors script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/novahub"))()
 end)
  
-HubSection:NewButton("Festival Tycoon", "Festival Tycoon script", function()
+OthersSection:NewButton("Festival Tycoon", "Festival Tycoon script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitzoon/Rogue-Hub/main/Main.lua", true))()
 end)
  
-HubSection:NewButton("Build a Boat for Treasure ", "Build a Boat for Treasure", function()
+OthersSection:NewButton("Build a Boat for Treasure ", "Build a Boat for Treasure", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/Script.lua"))()
 end)
  
-HubSection:NewButton("SharkBite", "Sharkbite Script", function()
-    getgenv().http_request = http_request or request or (http and http.request) or syn.request 
+=OthersSection:NewButton("SharkBite", "Sharkbite Script", function()
+  getgenv().http_request = http_request or request or (http and http.request) or syn.request 
 repeat until http_request
 loadstring(http_request({Url="https://raw.githubusercontent.com/alphaalt0409/WEIRDAPPLEBEEPANEL/main/weirdapplebee.lua",Method="GET"}).Body)()
 end)
  
-HubSection:NewButton("Airsoft Center", "Silent Aim and shit", function()
+OthersSection:NewButton("Airsoft Center", "Silent Aim and shit", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
 end)
  
-HubSection:NewButton("PLS Donate autofarm","AutoFarm for PLS Donate", function()
+OthersSection:NewButton("PLS Donate autofarm","AutoFarm for PLS Donate", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/tzechco/roblox-scripts/main/PLS%20DONATE/autofarm.lua'))()
 end)
  
-HubSection:NewButton("Pet Sim X", "Script for Pet Sim X", function()
+OthersSection:NewButton("Pet Sim X", "Script for Pet Sim X", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/95HthyJq"))() 
 end)
  
-HubSection:NewButton("Rat Washing Sim", "Script for Rat Washing Sim", function()
+OthersSection:NewButton("Rat Washing Sim", "Script for Rat Washing Sim", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0mikami/Roblox-Scripts/main/AutoRWT.lua"))()
 end)
  
-HubSection:NewButton("Orca", "A very clean GUI", function ()
+OthersSection:NewButton("Orca", "A very clean GUI", function ()
     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
 end)
  
- 
---MISC
-local Misc = Window:NewTab("Misc")
-local MiscSection = Misc:NewSection("Misc")
- 
-MiscSection:NewKeybind("Toggle UI", "Change the key to close the gui", Enum.KeyCode.E, function()
-    Library:ToggleUI()
-end)
 local PlrTab = Window:NewTab("credits")
 local PlrSection = PlrTab:NewSection("Developer script Shaypish")
