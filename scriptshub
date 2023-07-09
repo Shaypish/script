@@ -137,39 +137,6 @@ end)
   loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/v2.lua"))()
   end)
  
- local OthersTab = Window:NewTab("BrookHaven")
-local OthersSection = OthersTab:NewSection("BrookHaven") 
-
-OthersSection:NewButton("Da Hood", "Da Hood script", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/dylannpro123/enclosed/main/enclosed'))()
-end)
- 
-OthersSection:NewButton("Evade", "Evade Script", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
-end)
- 
-OthersSection:NewButton("Combat Warriors", "Combat Warriors script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/novahub"))()
-end)
- 
-OthersSection:NewButton("Festival Tycoon", "Festival Tycoon script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitzoon/Rogue-Hub/main/Main.lua", true))()
-end)
- 
-OthersSection:NewButton("Build a Boat for Treasure ", "Build a Boat for Treasure", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/Script.lua"))()
-end)
- 
-=OthersSection:NewButton("SharkBite", "Sharkbite Script", function()
-  getgenv().http_request = http_request or request or (http and http.request) or syn.request 
-repeat until http_request
-loadstring(http_request({Url="https://raw.githubusercontent.com/alphaalt0409/WEIRDAPPLEBEEPANEL/main/weirdapplebee.lua",Method="GET"}).Body)()
-end)
- 
-OthersSection:NewButton("Airsoft Center", "Silent Aim and shit", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
-end)
- 
 OthersSection:NewButton("PLS Donate autofarm","AutoFarm for PLS Donate", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/tzechco/roblox-scripts/main/PLS%20DONATE/autofarm.lua'))()
 end)
