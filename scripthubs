@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local Window = Library.CreateLib("ShaypScript Hub", ""BloodTheme")
+local Window = Library.CreateLib("ShaypScript Hub", "BloodTheme")
 
 local PlrTab = Window:NewTab("Home")
 local PlrSection = PlrTab:NewSection("Welcome, " .. game.Players.LocalPlayer.DisplayName)
