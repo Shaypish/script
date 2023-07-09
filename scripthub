@@ -136,22 +136,23 @@ end)
   OthersSection:NewButton("BitchBoy v2", "ButtonInfo", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/v2.lua"))()
   end)
+
+  local Other = Window:NewTab("Other")
+local OtherSection = Other:NewSection("Other")
  
-OthersSection:NewButton("PLS Donate autofarm","AutoFarm for PLS Donate", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/tzechco/roblox-scripts/main/PLS%20DONATE/autofarm.lua'))()
+OtherSection:NewButton("Chat spoofer", "Lets u chat from other people", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
 end)
  
-OthersSection:NewButton("Pet Sim X", "Script for Pet Sim X", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/95HthyJq"))() 
+OtherSection:NewButton("Bypassed Fly", "bird mode", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))() 
+ 
+    Fly(true)
 end)
  
-OthersSection:NewButton("Rat Washing Sim", "Script for Rat Washing Sim", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/0mikami/Roblox-Scripts/main/AutoRWT.lua"))()
+OtherSection:NewButton("Anti afk", "prevents u from getting afk kicked (duh)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
 end)
- 
-OthersSection:NewButton("Orca", "A very clean GUI", function ()
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
-end)
- 
+
 local PlrTab = Window:NewTab("credits")
 local PlrSection = PlrTab:NewSection("Developer script Shaypish")
