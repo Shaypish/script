@@ -6,7 +6,7 @@ local PlrTab = Window:NewTab("Home")
 local PlrSection = PlrTab:NewSection("Welcome, " .. game.Players.LocalPlayer.DisplayName)
 local PlrSection = PlrTab:NewSection("thanks for using my script")
 local PlrSection = PlrTab:NewSection("discord: shaypish")
-
+BackgroundColor3 = Color3.fromRGB(192,192,192)
     
 local OthersTab = Window:NewTab("BrookHaven")
 local OthersSection = OthersTab:NewSection("BrookHaven")
@@ -133,26 +133,105 @@ end)
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/Dupe-Yba.lua"))()
   end)
   
-  OthersSection:NewButton("BitchBoy v2", "ButtonInfo", function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/v2.lua"))()
+local OthersTab = Window:NewTab("Blox Fruit")
+local OthersSection = OthersTab:NewSection("Blox Fruit")
+
+ OthersSection:NewButton("Tuper Hub", "ButtonInfo", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/TUPERX/TUPERX/Main/MenuBF/README.md'))()
   end)
-
-  local Other = Window:NewTab("Other")
-local OtherSection = Other:NewSection("Other")
+  
+   OthersSection:NewButton("Blaze X Hub", "ButtonInfo", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/WindowsXp12/BlxzeRBLX/main/BLxzeHub.lua"))()
+  end)
+  
+   OthersSection:NewButton("Sxnumbz Hub", "ButtonInfo", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/sxnumz/Script/main/SxnumzHubFree.txt'))();
+  end)
+  
+   OthersSection:NewButton("MrMaxNaja Hub", "ButtonInfo", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/MrMaxNaJaEz/New-MrMaxNaJa-NaJa/main/README.md"))()
+  end)
+  
+   OthersSection:NewButton("East Hub", "ButtonInfo", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Brineeee/EastHub/main/lua"))()
+  end)
+  
+   OthersSection:NewButton("Chiba Hub", "ButtonInfo", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/KindIhave/ChibaHuB/main/Chiba-BF.txt'))()
+  end)
+  
+   OthersSection:NewButton("One X Hub", "ButtonInfo", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/One-x-HUB/main/README.md"))()
+  end)
+  
+   OthersSection:NewButton("Whale Hub", "ButtonInfo", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/x2SPETER/x2SPETER/main/BloxFruits.lua"))()
+  end)
+  
+   OthersSection:NewButton("Shadow Hub", "ButtonInfo", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Shadow-Trash/Loader/main/Loader.lua"))();
+  end)
+  
+  OthersSection:NewButton("HohoHub No Key", "ButtonInfo", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/Shaypish/script/main/hohohub'))()
+  end)
+  
+   OthersSection:NewButton("Hohohub", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+  end)
+  
+   OthersSection:NewButton("ZPSXHUB", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ZPSXHUB/Hub/main/MeMayBeo-BloxFruit'))()
+  end)
+   OthersSection:NewButton("Nickel Hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/RaidGuiBloxFruitOP"))()
+  end)
+  
+   OthersSection:NewButton("OLd Hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XO-3S-CL-VCK-jf-3HDM/Products/main/Old-BloxFruit"))()
+  end)
+  
+   OthersSection:NewButton("CFrameHub V2 Hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CFrame3310/CFrameHub/main/BloxFruitV2.lua"))()
+  end)
+  
+   OthersSection:NewButton("BLOX FRUITS (CFARME)💗", "ButtonInfo", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/CFrame3310/CFrameHub/main/BloxFruitV2.lua"))()
+  end)
+  
+   OthersSection:NewButton("NevaHub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2"))()
+  end)
+  
+   OthersSection:NewButton("TRash Hub", "ButtonInfo", function()
+   
+  end)
+  
+     OthersSection:NewButton("Shaypish BloxFruit", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaypish/script/main/shaypfruit"))()
+  end)
  
-OtherSection:NewButton("Chat spoofer", "Lets u chat from other people", function()
-    loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
-end)
- 
-OtherSection:NewButton("Bypassed Fly", "bird mode", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))() 
- 
-    Fly(true)
-end)
- 
-OtherSection:NewButton("Anti afk", "prevents u from getting afk kicked (duh)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
-end)
-
+  OthersSection:NewButton("S Hub", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaypish/script/main/shaypfruit"))()
+  end)
+   OthersSection:NewButton("XRAY Hub", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaypish/script/main/shaypfruit"))()
+  end)
+   OthersSection:NewButton("PRadoHub", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaypish/script/main/shaypfruit"))()
+  end)
+   OthersSection:NewButton("ZSUB Hub", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaypish/script/main/shaypfruit"))()
+  end)
+   OthersSection:NewButton("RubuHub", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaypish/script/main/shaypfruit"))()
+  end)
+   OthersSection:NewButton("TRXub", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaypish/script/main/shaypfruit"))()
+  end)
+   OthersSection:NewButton("RFruit", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaypish/script/main/shaypfruit"))()
+  end)
+  
 local PlrTab = Window:NewTab("credits")
 local PlrSection = PlrTab:NewSection("Developer script Shaypish")
