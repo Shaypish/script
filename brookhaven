@@ -1,5 +1,5 @@
 local SusLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = SusLib:MakeWindow({Name = "Google", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = SusLib:MakeWindow({Name = "BrookHaven Cheat", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Tab 1",
