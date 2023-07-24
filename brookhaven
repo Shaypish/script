@@ -2,11 +2,11 @@ local SusLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlex
 local Window = SusLib:MakeWindow({Name = "BrookHaven Cheat", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
-	Name = "Tab 1",
+	Name = "Home",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-	Name = "Section"
+	Name = "By Shaypish"
 })
