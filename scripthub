@@ -340,6 +340,13 @@ local OthersSection = OthersTab:NewSection("Work in Anticheat")
  OthersSection:NewButton("TP TO PLAYER", "ButtonInfo", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/AbDM2er1"))()
 end)
+ OthersSection:NewButton("TP TO PLAYER to me", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/UbzrWagz"))()
+end) 
 
-local PlrTab = Window:NewTab("credits")
+ OthersSection:NewButton("cookid ADMIN", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/apanel", true))()
+end)
+
+local PlrTab = Window:NewTab("credits")gfdsaQSDFTGYH=-76]\[POIUY+987
 local PlrSection = PlrTab:NewSection("Developer script Shaypish")
